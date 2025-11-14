@@ -1,0 +1,47 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: ee236331-2492-4969-96c0-3b110c34d747
+  title: fMRI Data Processing Manual on HPC
+  description: This manual is still being updated periodically. The preprocessing tools are AFNI, fMRIPrep, and XCP-D. Post-processing primarily utilizes Python.
+  keywords: [fMRI]
+  authors:
+    - name: Qiuyu Yu
+      affiliations:
+        - Georgia Center for Developmental Science
+      github: QiuyuYu3
+    - name: Charles Geier
+      affiliations:
+        - University of Georgia
+      github: CFGEIER
+  github: https://github.com/QiuyuYu3/fMRI-Data-Processing-Manual-on-HPC.git
+  # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
+  license: CC-BY-4.0
+  copyright: "© 2025 Qiuyu Yu, Georgia Center for Developmental Science"
+  exports:
+    - format: pdf
+      template: plain_latex_book
+      articles: 
+        - README.md
+        - 00_fMRI_Resource.md
+        - 01_Introduction.md
+        - 02_Reconstruction.md
+        - 03_Preprocessing.md
+        - 04_Regression.md
+        - 05_Preprocessing_Pipeline.md
+        - 06_Quality_Control.md
+        - 07_Group_Analysis.md
+        - RS1.md
+        - RS2.md
+        - BFC.md
+        - Freesurfer_and_SUMA.md
+        - ICA.md
+        - Special_Issues.md
+
+
+site:
+  title: "fMRI Data Processing Manual on HPC"
+  template: book-theme
+  options:
+    logo: images/logo2.png
+    favicon: ./images/logo2.png
