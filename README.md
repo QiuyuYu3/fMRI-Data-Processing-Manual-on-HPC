@@ -1,5 +1,7 @@
 # fMRI-functional-Magnetic-Resonance-Imaging-Data-Processing-Manual
 
+This manual is still being updated periodically. The preprocessing tools are AFNI, fMRIPrep, and XCP-D. Post-processing primarily utilizes Python.
+
 ![brain](./images/brain.gif)
 
 ## Overview Pipeline
