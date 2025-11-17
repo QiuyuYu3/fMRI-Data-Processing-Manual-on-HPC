@@ -102,7 +102,6 @@ The image below tells how to score the data and you can save the results when yo
 AFNI also provides four additional buttons in some blocks that allow you to interact with the AFNI GUI, Suma, NiiVue, etc. to view the data.
 
 ::::{grid} 2
-:gutter: 2
 
 :::{grid-item}
 ![AFNI_HTML1](images/06/AFNI_HTML1.png)
@@ -124,6 +123,11 @@ AFNI also provides four additional buttons in some blocks that allow you to inte
 
 ## Summary of APQC HTML
 
+<iframe
+  src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://raw.githubusercontent.com/QiuyuYu3/fMRI-QCtoolkit/main/training_materials/AFNI_QC_criteria.pdf"
+  width="100%"
+  height="1200px">
+</iframe>
 
 # Visualization of quality control
 
@@ -142,7 +146,7 @@ gtkyd_check.py \
 `gtkyd_check.py` uses [`3dinfo`](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/programs/alpha/3dinfo_sphx.html#dinfo) to generate this information in `dset_gtkyd_{$subj}_.txt` file. The definitions of abbreviations, such as nv and n3, are provided in 3dinfo.
 
 ```bash
-subject ID           : BRCH-091-24-072_ECEV_A_6_
+subject ID           : test
 n3                   : 102 102 64
 nv                   : 502
 orient               : RPI

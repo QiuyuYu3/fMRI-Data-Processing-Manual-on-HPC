@@ -101,9 +101,7 @@ Jo, H. J., Saad, Z. S., Simmons, W. K., Milbury, L. A., & Cox, R. W. (2010). Map
 
 AFNI team provides very detailed answers to assess EPI variance lines. In summary, if it's a solid straight line through the brain, then this is worrisome; but if it's a warning at the left and right ends of the brain, then this is likely a false positive. Also, there is no good way to fix this.
 
-You can go to `${subj}.results/vlines.pb00.tcat` in the QC output directory and check the results:
-
-![EPI_lines1](images/special_issues/EPI_lines1.png)
+You can go to `${subj}.results/vlines.pb00.tcat` in the QC output directory and check the results.
 
 Warnings with solid lines (concerning):
 
