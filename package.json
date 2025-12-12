@@ -1,0 +1,12 @@
+{
+  "name": "fmri-data-processing-manual-on-hpc",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "myst build --html",
+    "start": "myst start"
+  },
+  "dependencies": {
+    "mystmd": "^1.0.0"
+  }
+}
