@@ -45,6 +45,5 @@ site:
   options:
     logo: images/logo2.png
     favicon: ./images/logo2.png
-    robots:
-      sitemap: https://qiuyuyu3.github.io/fMRI-Data-Processing-Manual-on-HPC/sitemap.xml
-
+    url: https://qiuyuyu3.github.io/fMRI-Data-Processing-Manual-on-HPC
+    robots: allow
