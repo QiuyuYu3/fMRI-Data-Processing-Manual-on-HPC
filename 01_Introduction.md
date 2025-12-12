@@ -126,6 +126,9 @@ ls -l
 # give execute permission to the group
 chmod g+x file_folder
 
+# give read, write, and execute permission to the group (all files in the directory)
+chmod -R g+x file_folder/
+
 # give all permission of the file or folder to other people (maybe everyone)
 chmod -R 777 file_folder
 ```

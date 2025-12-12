@@ -45,3 +45,6 @@ site:
   options:
     logo: images/logo2.png
     favicon: ./images/logo2.png
+  domains:
+    - https://qiuyuyu3.github.io/fMRI-Data-Processing-Manual-on-HPC
+
