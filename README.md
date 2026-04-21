@@ -2,6 +2,8 @@
 
 This manual is still being updated periodically. The preprocessing tools are AFNI, fMRIPrep, and XCP-D. Post-processing primarily utilizes Python.
 
+**Handbook:** https://qiuyuyu3.github.io/fMRI-Data-Processing-Manual-on-HPC/
+
 ![brain](./images/brain.gif)
 
 ## Overview Pipeline
