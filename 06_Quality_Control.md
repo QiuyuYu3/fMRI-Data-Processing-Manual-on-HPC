@@ -123,6 +123,10 @@ AFNI also provides four additional buttons in some blocks that allow you to inte
 
 ## Summary of APQC HTML
 
+> [!note] AFNI QC Tutorial
+> https://youtube.com/playlist?list=PL_CD549H9kgoK9mGH3IVm1Ai6pB_Ns64K&si=qN-7pKMLr-WJAuKI
+
+
 <iframe
   src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://raw.githubusercontent.com/QiuyuYu3/fMRI-QCtoolkit/main/training_materials/AFNI_QC_criteria.pdf"
   width="100%"
