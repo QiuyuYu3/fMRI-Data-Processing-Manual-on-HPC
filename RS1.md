@@ -283,6 +283,10 @@ singularity run \
         -vv
 ```
 
+:::{note} Troubleshooting MRIQC: PyBIDS Cache Corruption
+When running MRIQC, you might encounter a "got an empty result" error despite having a correctly structured BIDS directory. This typically happens when a previously interrupted or failed run leaves behind a corrupted PyBIDS cache (.bids_db folder) in your output directory. The standard approach to resolve this is to add the --bids-database-wipe flag to your MRIQC command to force a fresh database scan. However, this flag often fails and triggers an OSError: [Errno 39] Directory not empty crash. This occurs because the underlying Python os.replace() function struggles to overwrite non-empty directories on these specific file systems. To reliably bypass both the empty layout error and the HPC overwrite conflict, the best practice is to manually delete the cache directory from the host side right before executing your Singularity container.
+:::
+
 ## Exclusion Criteria
 After processed by MRIQC in group level, it will generates some tsv files that contain quantitative indicators. The generated HTML file content is similar to that of fMRIPrep and provides a simple interface for researchers to perform scoring. The following documentation also provides detailed exclusion criteria:
 
